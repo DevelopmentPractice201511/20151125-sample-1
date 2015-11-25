@@ -40,7 +40,7 @@ CoffeeScriptは電子書籍である "Create Your Own Programming Language"を�
 |Coffee                           |Java                               |
 |:--------------------------------|:----------------------------------|
 |                                 |var footprints, solipsism, speed;  |
-|solipsism = true if mind? and not world?|if ((typeof mind !== "undefined" && mind !== null) && (typeof world === "undefined" || world === null)) {solipsism = true;}|
+|solipsism = true if mind? and not world?|if ((typeof mind !== "undefined" && mind !== null) && (typeof world === "undefined" ｜｜ world === null)) {solipsism = true;}|
 |speed = 0                        |speed = 0;                         |
 |speed ?= 15                      |if (speed == null) {speed = 15;}   |
 |footprints = yeti ? "bear"       |footprints = typeof yeti !== "undefined" && yeti !== null ? yeti : "bear";|
