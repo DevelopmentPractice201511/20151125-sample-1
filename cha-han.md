@@ -1,2 +1,3 @@
 #CoffeeScriptとは
-<img src="http://i.imgur.com/Jjwsc.jpg" alt="エビフライトライアングル" title="サンプル">
+#<img src="http://coffeescript.org/documentation/images/logo.png">
+- プログラミング言語の１つでコードはJavascriptに変換されます。
