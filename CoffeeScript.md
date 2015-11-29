@@ -3,7 +3,7 @@
 - CoffeeScriptとは？
 - Coffeeの歴史
 - CoffeeScriptの使い方
-- ほかの言語との違い
+- CoffeeScriptをJavaScriptにコンパイル!
 - 学んでみよう！
 
 
@@ -11,15 +11,10 @@
 
 
 #**CoffeeScriptとは？**
-- プログラミング言語の１つでコードはJavaScriptに変換される<br>
-CoffeeScriptはJavaScriptにコンパイルする言語です。
-簡単に説明するとJavaScriptをRybyライクに記述できる言語に近いです。
-
-
-- シンタックスシュガーの導入により、JavaScriptより簡単で読みやすい
-- 配列内包やパターンマッチといった機能を追加
-- 37signalsでは、実際に製品の開発に使われている
-- Ruby on Rails 3.1以降 でも正式にサポートされている。
+- プログラミング言語の１つでコードはJavaScriptに変換されます。<br>
+CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書くことが可能です。
+- 実際に製品の開発に使われているケースもあります。
+- Ruby on Rails 3.1以降でも正式にサポートされています。
 
 
 
@@ -34,8 +29,13 @@ CoffeeScriptはJavaScriptにコンパイルする言語です。
 
 
 #**CoffeeScriptの使い方**
-CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語です。
-使い方はまず、```npm install -g coffee-script```でCoffeeScriptをインストールします。
+CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語です。<br>
+今回はWindowsでCoffeeScriptを使う方法を紹介したいと思います。<br>
+使い方はまず、```Node.js```をインストールします。これには```NPMP```という専用のパッケージ管理ツールが付属されています。<br>
+Linuxのyumやrubyのgemのようなものです。<br>
+<img src="http://pgnote.net/wp-content/uploads/2012/11/01.jpg" width="400" height="200"><br>
+
+インストールが完了したら、```npm install -g coffee-script```でCoffeeScriptをインストールします。<br>
 そのあとCoffeeScriptで書いたテキストを```.coffee```形式で保存します。
 
 + hello.coffee<br>
@@ -76,7 +76,7 @@ CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語で�
 
 
 
-#**CoffeeScriptをJavaScriptにコンパイルしてみる**
+#**CoffeeScriptをJavaScriptにコンパイル!**
 - CoffeeScriptをJavaScriptにコンパイルするとこのようになります。
  - ver宣言
 
@@ -110,5 +110,16 @@ CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語で�
 
 
 #学んでみよう！
-- CoffeeScriptの公式ページ
+- 公式サイトを覗いてみる
+ - CoffeeScriptの公式サイトが存在します。<br>
+   サイト内は英語ですが、翻訳ツールを使ってサイトを閲覧してみるといいかもしれません。
+   <img src="http://cdn.sixrevisions.com/0230-02_coffeescript_official_website.jpg" width="800" height="480">
+<br>
+<br>
+<br>
+
+
 - CodeCombatでCoffeeScriptを使って遊ぶ
+ - CodeCombatではCoffeeScript言語でも遊ぶことが出来ます。<br>
+   ゲーム感覚でコーディング出来るので興味が湧いた方はこちらで軽く触れるのもアリ！
+   <img src="https://i.ytimg.com/vi/dCOHjERswGw/maxresdefault.jpg" width="800" height="480">
