@@ -35,15 +35,18 @@ CoffeeScriptはJavaScriptにコンパイルする言語です。
 
 #**コンパイルしてみる**
 - CoffeeScriptをJavaScriptにコンパイルするとこのようになります。
-- 演算子
-|CoffeeScritp|
-|:-:|
-|num = 3245|
-|console.log num|
-
+- ver宣言
 
 |CoffeeScript|JavaScript|
-|:----------:|:--------:|
+|:----------|:---------|
+|num = 3245|(function() {|
+|console.log num|var num;|
+||num = 3245;|
+||console.log(num);|
+||}).call(this);|
+
+|CoffeeScript|JavaScript|
+|:----------|:--------|
 ||var modulo = function(a, b) { return (+a % (b = +b) + b) % b; };|
 |-7 % 5 == -2|-7 % 5 === -2;|
 |-7 %% 5 == 3|modulo(-7, 5) === 3;|
@@ -52,7 +55,7 @@ CoffeeScriptはJavaScriptにコンパイルする言語です。
 - if文
 
 |CoffeeScript|JavaScript|
-|:----------:|:--------:|
+|:----------|:--------|
 ||var footprints, solipsism, speed;|
 |solipsism = true if mind? and not world?|if ((typeof mind !== "undefined" && mind !== null) && (typeof world === "undefined" ｜｜ world === null)) {solipsism = true;}|
 |speed = 0|speed = 0;|
