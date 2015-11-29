@@ -11,7 +11,11 @@
 
 
 #**CoffeeScriptとは？**
-- プログラミング言語の１つでコードはJavascriptに変換される
+- プログラミング言語の１つでコードはJavaScriptに変換される<br>
+CoffeeScriptはJavaScriptにコンパイルする言語です。
+簡単に説明するとJavaScriptをRybyライクに記述できる言語に近いです。
+
+
 - シンタックスシュガーの導入により、JavaScriptより簡単で読みやすい
 - 配列内包やパターンマッチといった機能を追加
 - 37signalsでは、実際に製品の開発に使われている
@@ -29,25 +33,31 @@
 
 
 
-#**他の言語との違い**
+#**コンパイルしてみる**
+- CoffeeScriptをJavaScriptにコンパイルするとこのようになります。
 - 演算子
+|CoffeeScritp|
+|:-:|
+|num = 3245|
+|console.log num|
 
-|Coffee                           |Java                               |
-|:--------------------------------|:----------------------------------|
-|                                 |var modulo = function(a, b) { return (+a % (b = +b) + b) % b; };|
-|-7 % 5 == -2                     |-7 % 5 === -2;                     |
-|-7 %% 5 == 3                     |modulo(-7, 5) === 3;               |
+
+|CoffeeScript|JavaScript|
+|:----------:|:--------:|
+||var modulo = function(a, b) { return (+a % (b = +b) + b) % b; };|
+|-7 % 5 == -2|-7 % 5 === -2;|
+|-7 %% 5 == 3|modulo(-7, 5) === 3;|
 |tabs.selectTabAtIndex((tabs.currentIndex - count) %% tabs.length)|tabs.selectTabAtIndex(modulo(tabs.currentIndex - count, tabs.length));|
 
 - if文
 
-|Coffee                           |Java                               |
-|:---------------------------------------|:----------------------------------|
-|                                 |var footprints, solipsism, speed;  |
-|solipsism = true if mind? and not world?               |if ((typeof mind !== "undefined" && mind !== null) && (typeof world === "undefined" ｜｜ world === null)) {solipsism = true;}|
-|speed = 0                        |speed = 0;                         |
-|speed ?= 15                      |if (speed == null) {speed = 15;}   |
-|footprints = yeti ? "bear"       |footprints = typeof yeti !== "undefined" && yeti !== null ? yeti : "bear";|
+|CoffeeScript|JavaScript|
+|:----------:|:--------:|
+||var footprints, solipsism, speed;|
+|solipsism = true if mind? and not world?|if ((typeof mind !== "undefined" && mind !== null) && (typeof world === "undefined" ｜｜ world === null)) {solipsism = true;}|
+|speed = 0|speed = 0;|
+|speed ?= 15|if (speed == null) {speed = 15;}|
+|footprints = yeti ? "bear"|footprints = typeof yeti !== "undefined" && yeti !== null ? yeti : "bear";|
 
 
 
