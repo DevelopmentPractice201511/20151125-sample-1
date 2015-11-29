@@ -124,4 +124,4 @@ Linuxのyumやrubyのgemのようなものです。<br>
 - CodeCombatでCoffeeScriptを使って遊ぶ
  - CodeCombatではCoffeeScript言語でも遊ぶことが出来ます。<br>
    ゲーム感覚でコーディング出来るので興味が湧いた方はこちらで軽く触れるのもアリ！
-   <img src="https://i.ytimg.com/vi/dCOHjERswGw/maxresdefault.jpg" width="800" height="480">
+   [<img src="https://i.ytimg.com/vi/dCOHjERswGw/maxresdefault.jpg" width="800" height="480">](https://codecombat.com/)
