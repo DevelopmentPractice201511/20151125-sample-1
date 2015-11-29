@@ -17,6 +17,9 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 - Ruby on Rails 3.1以降でも正式にサポートされています。
 <br>
 <br>
+[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -24,6 +27,9 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 #**Coffeeの歴史**
 - CoffeeScriptの始まりは「謎の言語を初回コミット(initial commit of the mystery language)」というコメントとともに Git リポジトリにコミットした
 - CoffeeScriptは電子書籍である "Create Your Own Programming Language"を基に開発され、このときのコンパイラはRubyで書かれていた
+<br>
+<br>
+[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -109,19 +115,26 @@ Linuxのyumやrubyのgemのようなものです。<br>
 |footprints = yeti ? "bear"|footprints = typeof yeti !== "undefined" && yeti !== null ? yeti : "bear";|
 <br>
 <br>
+[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
-
-#学んでみよう！
-- 公式サイトを覗いてみる
- - CoffeeScriptの公式サイトが存在します。<br>
+<br>
+<br>
+#*学んでみよう！*
+##*公式サイトを覗いてみる*
+ - **[CoffeeScriptの公式サイト](http://coffeescript.org/)**が存在します。<br>
    サイト内は英語ですが、翻訳ツールを使ってサイトを閲覧してみるといいかもしれません。
    [<img src="http://cdn.sixrevisions.com/0230-02_coffeescript_official_website.jpg" width="800" height="480">](http://coffeescript.org/)
 <br>
 <br>
 <br>
-- CodeCombatでCoffeeScriptを使って遊ぶ
- - CodeCombatではCoffeeScript言語でも遊ぶことが出来ます。<br>
+
+##*CodeCombatでCoffeeScriptを使って遊ぶ*
+ - **[CodeCombat](https://codecombat.com/)**ではCoffeeScript言語でも遊ぶことが出来ます。<br>
    ゲーム感覚でコーディング出来るので興味が湧いた方はこちらで軽く触れるのもアリ！
    [<img src="https://i.ytimg.com/vi/dCOHjERswGw/maxresdefault.jpg" width="800" height="480">](https://codecombat.com/)
+
+<br>
+<br>
+[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
