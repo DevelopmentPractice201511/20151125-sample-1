@@ -41,7 +41,7 @@ CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語で�
 今回はWindowsでCoffeeScriptを使う方法を紹介したいと思います。<br>
 使い方はまず、```Node.js```をインストールします。これには```NPMP```という専用のパッケージ管理ツールが付属されています。<br>
 Linuxのyumやrubyのgemのようなものです。<br>
-<img src="http://pgnote.net/wp-content/uploads/2012/11/01.jpg" width="400" height="200"><br>
+[<img src="http://pgnote.net/wp-content/uploads/2012/11/01.jpg" width="400" height="200">](https://nodejs.org/en/)<br>
 
 インストールが完了したら、```npm install -g coffee-script```でCoffeeScriptをインストールします。<br>
 そのあとCoffeeScriptで書いたテキストを```.coffee```形式で保存します。
@@ -81,10 +81,15 @@ Linuxのyumやrubyのgemのようなものです。<br>
 <img src="http://pgnote.net/wp-content/uploads/2012/11/20121110090936.jpg" width="300" height="200"><br>
 <br>
 <br>
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 #**CoffeeScriptをJavaScriptにコンパイル!**
 - CoffeeScriptをJavaScriptにコンパイルするとこのようになります。
  - ver宣言
@@ -121,6 +126,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 <br>
 <br>
 <br>
+
 #*学んでみよう！*
 ##*公式サイトを覗いてみる*
  - **[CoffeeScriptの公式サイト](http://coffeescript.org/)**が存在します。<br>
