@@ -29,7 +29,29 @@ CoffeeScriptはJavaScriptにコンパイルする言語です。
 - CoffeeScriptの始まりは「謎の言語を初回コミット(initial commit of the mystery language)」というコメントとともに Git リポジトリにコミットした
 - CoffeeScriptは電子書籍である "Create Your Own Programming Language"を基に開発され、このときのコンパイラはRubyで書かれていた
 
+#**CoffeeScriptの使い方**
+CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語です。
+使い方はまず、```npm install -g coffee-script```でCoffeeScriptをインストールします。
+そのあとCoffeeScriptで書いたテキストを```.coffee```形式で保存します。
 
+hellp.coffee<br>
+- days = [
+  "Sunday"
+  "Monday"
+  "Tuesday"
+  "Wednesday"
+  "Thursday"
+  "Friday"
+  "Saturday"
+]
+
+today = days[(new Date).getDay()]
+alert "Hello! Today is #{today}."
+
+
+又は公式サイトの<br>
+<img src="http://www.webopixel.net/blog/wp-content/uploads/2012/02/0213_1.png" width="500" height="300"><br>
+からダウンロードしたフォルダのcoffee-script.js
 
 
 
@@ -38,19 +60,19 @@ CoffeeScriptはJavaScriptにコンパイルする言語です。
 - ver宣言
 
 |CoffeeScript|JavaScript|
-|:----------|:---------|
+|:-----------|:---------|
 |num = 3245|(function() {|
 |console.log num|var num;|
 ||num = 3245;|
 ||console.log(num);|
 ||}).call(this);|
 
+- for文
+
 |CoffeeScript|JavaScript|
-|:----------|:--------|
-||var modulo = function(a, b) { return (+a % (b = +b) + b) % b; };|
-|-7 % 5 == -2|-7 % 5 === -2;|
-|-7 %% 5 == 3|modulo(-7, 5) === 3;|
-|tabs.selectTabAtIndex((tabs.currentIndex - count) %% tabs.length)|tabs.selectTabAtIndex(modulo(tabs.currentIndex - count, tabs.length));|
+|:-----------|:---------|
+
+
 
 - if文
 
