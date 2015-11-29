@@ -39,11 +39,11 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 #**CoffeeScriptの使い方**
 CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語です。<br>
 今回はWindowsでCoffeeScriptを使う方法を紹介したいと思います。<br>
-使い方はまず、```Node.js```をインストールします。これには```NPMP```という専用のパッケージ管理ツールが付属されています。<br>
+使い方はまず、**[Node.js](https://nodejs.org/en/)**をインストールします。これには```NMP```という専用のパッケージ管理ツールが付属されています。<br>
 Linuxのyumやrubyのgemのようなものです。<br>
 [<img src="http://pgnote.net/wp-content/uploads/2012/11/01.jpg" width="400" height="200">](https://nodejs.org/en/)<br>
 
-インストールが完了したら、```npm install -g coffee-script```でCoffeeScriptをインストールします。<br>
+インストールが完了したら、**```npm install -g coffee-script```**でCoffeeScriptをインストールします。<br>
 そのあとCoffeeScriptで書いたテキストを```.coffee```形式で保存します。
 
 + hello.coffee<br>
@@ -99,25 +99,26 @@ Linuxのyumやrubyのgemのようなものです。<br>
 |num = 3245|(function() {|
 |console.log num|var num;|
 ||num = 3245;|
-||console.log(num);|
-||}).call(this);|
+||console.log(num);}).call(this);|
 
- - for文
+  - if文
+
+|CoffeeScript|JavaScript|
+|:-----------|:---------|
+|mood = greatlyImproved if singing|var date, mood;|
+|if happy and knowsIt|if (singing) {mood = greatlyImproved;}|
+|clapsHands()|if (happy && knowsIt) { |
+|chaChaCha()|clapsHands();|
+|else|chaChaCha();|
+|showIt()|} else {|
+|date = if friday then sue else jill|  showIt();}|
+||date = friday ? sue : jill;|
+
+  - if文
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
 
-
-
- - if文
-
-|CoffeeScript|JavaScript|
-|:----------|:--------|
-||var footprints, solipsism, speed;|
-|solipsism = true if mind? and not world?|if ((typeof mind !== "undefined" && mind !== null) && (typeof world === "undefined" ｜｜ world === null)) {solipsism = true;}|
-|speed = 0|speed = 0;|
-|speed ?= 15|if (speed == null) {speed = 15;}|
-|footprints = yeti ? "bear"|footprints = typeof yeti !== "undefined" && yeti !== null ? yeti : "bear";|
 <br>
 <br>
 [<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
