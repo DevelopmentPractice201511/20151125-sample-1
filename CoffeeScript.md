@@ -114,7 +114,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
  - CoffeeScriptの公式サイトが存在します。<br>
    サイト内は英語ですが、翻訳ツールを使ってサイトを閲覧してみるといいかもしれません。
    <a href=" http://coffeescript.org/">
-   <img src="http://cdn.sixrevisions.com/0230-02_coffeescript_official_website.jpg" width="800" height="480">
+   <img src="http://cdn.sixrevisions.com/0230-02_coffeescript_official_website.jpg" width="800" height="480"></a>
 <br>
 <br>
 <br>
