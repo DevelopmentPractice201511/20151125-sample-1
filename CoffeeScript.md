@@ -17,7 +17,7 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 - Ruby on Rails 3.1以降でも正式にサポートされています。
 <br>
 <br>
-[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -29,7 +29,7 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 - CoffeeScriptは電子書籍である "Create Your Own Programming Language"を基に開発され、このときのコンパイラはRubyで書かれていた
 <br>
 <br>
-[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -78,7 +78,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
  - ```</html>```<br>
 
 成功していればこの画像と同じものが表示されます。<br>
-<img src="http://pgnote.net/wp-content/uploads/2012/11/20121110090936.jpg" width="300" height="200"><br>
+<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png" width="300" height="200"><br>
 <br>
 <br>
 <br>
@@ -115,7 +115,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 |footprints = yeti ? "bear"|footprints = typeof yeti !== "undefined" && yeti !== null ? yeti : "bear";|
 <br>
 <br>
-[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png">align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -134,7 +134,15 @@ Linuxのyumやrubyのgemのようなものです。<br>
  - **[CodeCombat](https://codecombat.com/)**ではCoffeeScript言語でも遊ぶことが出来ます。<br>
    ゲーム感覚でコーディング出来るので興味が湧いた方はこちらで軽く触れるのもアリ！
    [<img src="https://i.ytimg.com/vi/dCOHjERswGw/maxresdefault.jpg" width="800" height="480">](https://codecombat.com/)
+<br>
+<br>
 
+###参考元URL
+[CoffeeScript公式サイト](http://coffeescript.org/)<br>
+[JavaScriptをシンプルに書けるCoffeeScript使ってみた](http://www.webopixel.net/javascript/529.html)<br>
+[もっとクールにプログラミング](http://pgnote.net/?p=686)<br>
+[Railsドキュメント](http://railsdoc.com/coffeescript)<br>
 <br>
 <br>
-[<img src="http://coffeescript.org/documentation/images/logo.png">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+
+[<http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png">align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
