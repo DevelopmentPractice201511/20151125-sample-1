@@ -78,7 +78,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
  - ```</html>```<br>
 
 成功していればこの画像と同じものが表示されます。<br>
-<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png" width="300" height="200"><br>
+<img src="http://pgnote.net/wp-content/uploads/2012/11/20121110090936.jpg" width="300" height="200"><br>
 <br>
 <br>
 <br>
@@ -115,7 +115,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 |footprints = yeti ? "bear"|footprints = typeof yeti !== "undefined" && yeti !== null ? yeti : "bear";|
 <br>
 <br>
-[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png">align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -145,4 +145,4 @@ Linuxのyumやrubyのgemのようなものです。<br>
 <br>
 <br>
 
-[<http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png">align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
