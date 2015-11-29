@@ -17,7 +17,7 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 - Ruby on Rails 3.1以降でも正式にサポートされています。
 <br>
 <br>
-[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -29,7 +29,7 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 - CoffeeScriptは電子書籍である "Create Your Own Programming Language"を基に開発され、このときのコンパイラはRubyで書かれていた
 <br>
 <br>
-[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -43,7 +43,7 @@ CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語で�
 Linuxのyumやrubyのgemのようなものです。<br>
 [<img src="http://pgnote.net/wp-content/uploads/2012/11/01.jpg" width="400" height="200">](https://nodejs.org/en/)<br>
 
-インストールが完了したら、**```npm install -g coffee-script```**でCoffeeScriptをインストールします。<br>
+インストールが完了したら、```npm install -g coffee-script```でCoffeeScriptをインストールします。<br>
 そのあとCoffeeScriptで書いたテキストを```.coffee```形式で保存します。
 
 + hello.coffee<br>
@@ -81,7 +81,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 <img src="http://pgnote.net/wp-content/uploads/2012/11/20121110090936.jpg" width="300" height="200"><br>
 <br>
 <br>
-[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
 <br>
 <br>
 <br>
@@ -90,9 +90,11 @@ Linuxのyumやrubyのgemのようなものです。<br>
 <br>
 <br>
 <br>
-#**CoffeeScriptをJavaScriptにコンパイル!**
-- CoffeeScriptをJavaScriptにコンパイルするとこのようになります。
- - ver宣言
+
+#CoffeeScriptをJavaScriptにコンパイル!
+CoffeeScriptをJavaScriptにコンパイルするとこのようになります。<br>
+
+##ver宣言
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
@@ -100,8 +102,11 @@ Linuxのyumやrubyのgemのようなものです。<br>
 |console.log num|var num;|
 ||num = 3245;|
 ||console.log(num);}).call(this);|
+<br>
+<br>
+<br>
 
-  - if文
+##if文
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
@@ -113,22 +118,38 @@ Linuxのyumやrubyのgemのようなものです。<br>
 |showIt()|} else {|
 |date = if friday then sue else jill|  showIt();}|
 ||date = friday ? sue : jill;|
+<br>
+<br>
+<br>
 
-  - if文
+##Loop文
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
+|eat food for food in ['toast', 'cheese', 'wine']|var courses, dish, food, foods, i, j, k, l, len, len1, len2, ref;|
+|courses = ['greens', 'caviar', 'truffles', 'roast', 'cake']|ref = ['toast', 'cheese', 'wine'];|
+|menu i + 1, dish for dish, i in courses|for (j = 0, len = ref.length; j < len; j++)|
+|foods = ['broccoli', 'spinach', 'chocolate']|{food = ref[j];|
+|eat food for food in foods when food isnt 'chocolate'|  eat(food);}|
+||courses = ['greens', 'caviar', 'truffles', 'roast', 'cake'];|
+||for (i = k = 0, len1 = courses.length; k < len1; i = ++k)|
+||{dish = courses[i];|
+||menu(i + 1, dish);}|
+||foods = ['broccoli', 'spinach', 'chocolate'];|
+||for (l = 0, len2 = foods.length; l < len2; l++)|
+||{food = foods[l];|
+||if (food !== 'chocolate')|
+||{eat(food);}}|
+<br>
+<br>
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<br>
-<br>
-[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
-<br>
-<br>
-<br>
-<br>
-<br>
-
-#*学んでみよう！*
+#学んでみよう！
 ##*公式サイトを覗いてみる*
  - **[CoffeeScriptの公式サイト](http://coffeescript.org/)**が存在します。<br>
    サイト内は英語ですが、翻訳ツールを使ってサイトを閲覧してみるといいかもしれません。
@@ -151,5 +172,4 @@ Linuxのyumやrubyのgemのようなものです。<br>
 [Railsドキュメント](http://railsdoc.com/coffeescript)<br>
 <br>
 <br>
-
-[<http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+[<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
