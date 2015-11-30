@@ -11,10 +11,11 @@
 
 
 #**CoffeeScriptとは？**
-- プログラミング言語の１つでコードはJavaScriptに変換されます。<br>
+- プログラミング言語の１つでCoffeeScriptで書いたコードはコンパイルすることでJavaScriptに変換されます。<br>
 CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書くことが可能です。
 - 実際に製品の開発に使われているケースもあります。
 - Ruby on Rails 3.1以降でも正式にサポートされています。
+<img src="http://re.buildinsider.net/web/rubyonrails4/0901/9-4.gif"><br>
 <br>
 <br>
 [<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
@@ -95,6 +96,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 CoffeeScriptをJavaScriptにコンパイルするとこのようになります。<br>
 
 ##ver宣言
+- CoffeeScriptでは関数やメソッドの引数は()で囲わなくてもかまいません。<br>
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
@@ -107,6 +109,8 @@ CoffeeScriptをJavaScriptにコンパイルするとこのようになります�
 <br>
 
 ##if文
+- CoffeeScriptでもif,switch,while文が使用可能です。<br>
+  CoffeeScriptでは{}で囲む代わりにインデントで表現します。<br>
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
@@ -123,6 +127,13 @@ CoffeeScriptをJavaScriptにコンパイルするとこのようになります�
 <br>
 
 ##Loop文
+- 配列やハッシュのリテラルはJavaScriptと同じく[・・・]{・・・}で表現できます。<br>
+  ただし、以下の点がJavaScriptと異なります。<br>
+  - 要素の区切り文字としてカンマ(,)だけでなく改行も利用可能<br>
+  - 最後の要素をカンマで終わってもかまわない<br>
+- 演算子もJavaScriptとほぼ同じ物を利用できますが[```==```]演算子は利用できません。
+- CoffeeScript独自の演算子として[```?```]演算子が存在します。<br>
+  変数の最後に?を付けることで変数の有無を確認する事が出来ます。<br>
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
