@@ -110,7 +110,7 @@ CoffeeScriptをJavaScriptにコンパイルするとこのようになります�
 
 ##if文
 - CoffeeScriptでもif,switch,while文が使用可能です。<br>
-  CoffeeScriptでは{}で囲む代わインデントで表現します。<br>
+  CoffeeScriptでは{}で囲む代わりにインデントで表現します。<br>
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
