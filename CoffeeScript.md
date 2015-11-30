@@ -96,6 +96,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 CoffeeScriptをJavaScriptにコンパイルするとこのようになります。<br>
 
 ##ver宣言
+- CoffeeScriptでは関数やメソッドの引数は()で囲わなくてもかまいません。<br>
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
@@ -108,6 +109,8 @@ CoffeeScriptをJavaScriptにコンパイルするとこのようになります�
 <br>
 
 ##if文
+- CoffeeScriptでもif,switch,while文が使用可能です。<br>
+  CoffeeScriptでは{}で囲む代わインデントで表現します。<br>
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
@@ -124,6 +127,13 @@ CoffeeScriptをJavaScriptにコンパイルするとこのようになります�
 <br>
 
 ##Loop文
+- 配列やハッシュのリテラルはJavaScriptと同じく[・・・]{・・・}で表現できます。<br>
+  ただし、以下の点がJavaScriptと異なります。<br>
+  - 要素の区切り文字としてカンマ(,)だけでなく改行も利用可能<br>
+  - 最後の要素をカンマで終わってもかまわない<br>
+- 演算子もJavaScriptとほぼ同じ物を利用できますが[```==```]演算子は利用できません。
+- CoffeeScript独自の演算子として[```?```]演算子が存在します。<br>
+  変数の最後に?を付けることで変数の有無を確認する事が出来ます。<br>
 
 |CoffeeScript|JavaScript|
 |:-----------|:---------|
