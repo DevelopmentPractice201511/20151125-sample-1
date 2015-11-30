@@ -56,16 +56,24 @@ CoffeeScriptは先ほど説明したようにJavaScriptに変換する言語で�
 Linuxのyumやrubyのgemのようなものです。<br>
 [<img src="http://pgnote.net/wp-content/uploads/2012/11/01.jpg" width="400" height="200">](https://nodejs.org/en/)<br>
 
-インストールが完了したら、```npm install -g coffee-script```でCoffeeScriptをインストールします。<br>
-そのあとCoffeeScriptで書いたテキストを```.coffee```形式で保存します。
+インストールが完了したら、コマンドプロンプトで```npm install -g coffee-script```と打ち込みCoffeeScriptをインストールします。<br>
+これで、CoffeeScriptを使える環境が整いました。<br>
+そのあとテキストエディタにCoffeeScriptで書いたテキストを```.coffee```形式で保存します。
 
 + hello.coffee<br>
- - 1 days = [  "Sunday"  "Monday"  "Tuesday"  "Wednesday"  "Thursday"  "Friday"  "Saturday"]<br>
- - 2 today = days[(new Date).getDay()] alert "Hello! Today is #{today}."<br>
+ - 1 days = [  "Sunday"
+ - 2 "Monday"
+ - 3 "Tuesday"
+ - 4 "Wednesday"
+ - 5 "Thursday"
+ - 6 "Friday"
+ - 7 "Saturday"]<br>
+ - 8  today = days[(new Date).getDay()] alert "Hello! Today is #{today}."<br>
 
-```.coffee``` 形式 で保存したコードを端末でJavaScriptにコンパイルします。
+```.coffee``` 形式 で保存したコードをコマンドプロンプトでJavaScriptにコンパイルします。
 
-+ coffee -compile hello.coffee
++ coffee -c ファイル名.coffee
+ - coffee -c hello.coffee
 
 これでコンパイルが完了し、CoffeeScriptがJavaScriptに変換され<br>
 ```.js``` ファイルが作成されます。
@@ -77,9 +85,9 @@ Linuxのyumやrubyのgemのようなものです。<br>
  - 4 today = days[(new Date).getDay()];<br>
  - 5 alert("Hello! Today is " + today);}).call(this);
 
-変換後は、JavaScriptファイルなので問題なくJavaScriptとして使用可能です。
+変換後は、JavaScriptファイルなので問題なくJavaScriptとして使用可能です。<br>
 
-+ HTML
++ hello.html
  - ```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">```<br>
  - ```<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">```<br>
  - ```<head>```<br>
@@ -90,7 +98,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
  - ```</body>```<br>
  - ```</html>```<br>
 
-成功していればこの画像と同じものが表示されます。<br>
+hello.htmlファイルを開くとJavaScriptが起動します。<br>
 <img src="http://pgnote.net/wp-content/uploads/2012/11/20121110090936.jpg" width="300" height="200"><br>
 <br>
 <br>
