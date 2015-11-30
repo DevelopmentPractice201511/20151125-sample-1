@@ -11,10 +11,11 @@
 
 
 #**CoffeeScriptとは？**
-- プログラミング言語の１つでコードはJavaScriptに変換されます。<br>
+- プログラミング言語の１つでCoffeeScriptで書いたコードはコンパイルすることでJavaScriptに変換されます。<br>
 CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書くことが可能です。
 - 実際に製品の開発に使われているケースもあります。
 - Ruby on Rails 3.1以降でも正式にサポートされています。
+<img src="http://re.buildinsider.net/web/rubyonrails4/0901/9-4.gif"><br>
 <br>
 <br>
 [<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
