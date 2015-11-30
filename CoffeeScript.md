@@ -95,7 +95,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 #CoffeeScriptをJavaScriptにコンパイル!
 CoffeeScriptをJavaScriptにコンパイルするとこのようになります。<br>
 
-##ver宣言
+##var宣言
 - CoffeeScriptでは関数やメソッドの引数は()で囲わなくてもかまいません。<br>
 
 |CoffeeScript|JavaScript|
