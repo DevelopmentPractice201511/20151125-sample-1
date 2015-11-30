@@ -26,11 +26,23 @@ CoffeeScriptで書くことによりJavaScriptを書くより簡単に短く書�
 <br>
 
 #**Coffeeの歴史**
-- CoffeeScriptの始まりは「謎の言語を初回コミット(initial commit of the mystery language)」というコメントとともに Git リポジトリにコミットした
-- CoffeeScriptは電子書籍である "Create Your Own Programming Language"を基に開発され、このときのコンパイラはRubyで書かれていた
+- 2009年12月13日　CoffeeScriptの始まり<br>
+  「謎の言語を初回コミット(initial commit of the mystery language)」というコメントとともに Git リポジトリにコミットした<br>
+- CoffeeScriptは電子書籍である "Create Your Own Programming Language"を基に開発され、このときのコンパイラはRubyで書かれていた<br>
+- 2009年12月24日にバージョン0.1.0がリリース<br>
+- 2010年2月21日　純粋なCoffeeScriptで書かれたバージョン0.5がコミットされる<br>
+  他の開発者の興味を引き1日に300回程プロジェクトページが参照されるようになった<br>
+- 2010年に12月24日　バージョン1.0.0が公開されました<br>
 <br>
 <br>
 [<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"width="100" height="100"align="right">](https://github.com/DevelopmentPractice201511/20151125-sample-1/blob/YamaDa/CoffeeScript.md#)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -95,7 +107,7 @@ Linuxのyumやrubyのgemのようなものです。<br>
 #CoffeeScriptをJavaScriptにコンパイル!
 CoffeeScriptをJavaScriptにコンパイルするとこのようになります。<br>
 
-##ver宣言
+##var宣言
 - CoffeeScriptでは関数やメソッドの引数は()で囲わなくてもかまいません。<br>
 
 |CoffeeScript|JavaScript|
